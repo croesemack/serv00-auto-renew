@@ -66,7 +66,7 @@ async function handleRequest(req, res) {
       await sendTelegramMessage(
         `❌ Serv00 自动保活失败\n账号: ${account.username}\n主机: ${account.host}\nSSH 命令执行失败，请检查账号和命令是否正确。`
       );
-      break;
+      //break;
     }
   }
 
