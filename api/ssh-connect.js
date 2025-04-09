@@ -57,7 +57,7 @@ async function handleRequest(req, res) {
       await sshConnect(account);
     } catch (error) {
       result = 'failed';
-      break;
+     // break;
     }
   }
 
